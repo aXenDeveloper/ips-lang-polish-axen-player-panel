@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language name="Polski" rtl="0">
+ <app key="axenplayerpanel" version="10012">
+  <word key="__app_axenplayerpanel" js="0">(aXen) Player Panel</word>
+  <word key="menutab__axenplayerpanel_icon" js="0">gamepad</word>
+  <word key="module__axenplayerpanel_playerpanel" js="0">Panel gracza</word>
+  <word key="aXenPlayerPanel_error_duplicate_name" js="0">Nazwa tej grupy już istnieje!</word>
+  <word key="aXenPlayerPanel_error_sourcebans_servers_empty" js="0"><![CDATA[Nie znaleziono serwerów. Przejdź do zakładki <a href="?app=axenplayerpanel&module=sourcebans&controller=servers">"Serwery"</a> i dodaj je.]]></word>
+  <word key="menu__axenplayerpanel_configuration" js="0">Konfiguracja</word>
+  <word key="menu__axenplayerpanel_configuration_connection" js="0">Połączenia bazy danych</word>
+  <word key="aXenPlayerPanel_connection_success" js="0">Podłączono zewnętrzną bazę danych</word>
+  <word key="aXenPlayerPanel_error_connection" js="0">Ups! Wystąpił problem z połączeniem z zewnętrzną bazą danych</word>
+  <word key="aXenPlayerPanel_tab_connection_sb_db" js="0">Sourcebans</word>
+  <word key="aXenPlayerPanel_connection_sb_db" js="0">Włączyć Sourcebans?</word>
+  <word key="aXenPlayerPanel_connection_sb_db_host" js="0">Host</word>
+  <word key="aXenPlayerPanel_connection_sb_db_port" js="0">Port</word>
+  <word key="aXenPlayerPanel_connection_sb_db_user" js="0">Użytkownik</word>
+  <word key="aXenPlayerPanel_connection_sb_db_password" js="0">Hasło</word>
+  <word key="aXenPlayerPanel_connection_sb_db_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_connection_sb_db_prefix" js="0">Prefix</word>
+  <word key="aXenPlayerPanel_tab_connection_amx_db" js="0">AMXBans</word>
+  <word key="aXenPlayerPanel_connection_amx_db" js="0">Włączyć AMXBans?</word>
+  <word key="aXenPlayerPanel_connection_amx_db_host" js="0">Host</word>
+  <word key="aXenPlayerPanel_connection_amx_db_port" js="0">Port</word>
+  <word key="aXenPlayerPanel_connection_amx_db_user" js="0">Użytkownik</word>
+  <word key="aXenPlayerPanel_connection_amx_db_password" js="0">Hasło</word>
+  <word key="aXenPlayerPanel_connection_amx_db_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_connection_amx_db_prefix" js="0">Prefix</word>
+  <word key="menu__axenplayerpanel_sourcebans" js="0">Sourcebans</word>
+  <word key="menu__axenplayerpanel_sourcebans_admins" js="0">Admini</word>
+  <word key="aXenPlayerPanel_admin_table_admins" js="0">Ogólny</word>
+  <word key="aXenPlayerPanel_admin_table_admins_new" js="0">Utwórz nowego admina</word>
+  <word key="aXenPlayerPanel_admin_table_admins_user" js="0">Użytkownik</word>
+  <word key="aXenPlayerPanel_admin_table_admins_member_ips" js="0">Użytkownik z IPS</word>
+  <word key="aXenPlayerPanel_admin_table_admins_member_ips_error" js="0">Żaden użytkownik nie został przydzielony z IPS!</word>
+  <word key="aXenPlayerPanel_admin_table_admins_authid" js="0">Steam ID</word>
+  <word key="aXenPlayerPanel_admin_table_admins_immunity" js="0">Poziom odporności</word>
+  <word key="aXenPlayerPanel_admin_table_admins_srv_group" js="0">Grupa</word>
+  <word key="aXenPlayerPanel_admin_table_admins_srv_flags" js="0">Dodatkowe flagi serwerów</word>
+  <word key="aXenPlayerPanel_admin_table_admins_srv_password" js="0">Hasło serwera</word>
+  <word key="aXenPlayerPanel_admin_table_admins_group" js="0">Grupa</word>
+  <word key="aXenPlayerPanel_admin_table_admins_servers" js="0">Serwery</word>
+  <word key="aXenPlayerPanel_admin_table_admins_flags" js="0">Flagi serwerów</word>
+  <word key="menu__axenplayerpanel_sourcebans_groups" js="0">Grupy</word>
+  <word key="aXenPlayerPanel_admin_table_groups_new" js="0">Stwórz nową grupę</word>
+  <word key="aXenPlayerPanel_admin_table_groups_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_admin_table_groups_immunity" js="0">Odporność</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags" js="0">Flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_a" js="0">Zarezerwowane sloty</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_a_desc" js="0">a - Zarezerwowany dostęp.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_b" js="0">Ogólny</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_b_desc" js="0">b - Administrator ogólny; wymagane dla administratorów.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_c" js="0">Wyrzucaj graczy</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_c_desc" js="0">c - Wyrzucaj innych graczy.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_d" js="0">Zablokuj graczy</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_d_desc" js="0">d - Zbanuj innych graczy.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_e" js="0">Odbanuj graczy</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_e_desc" js="0">e - Usuń bany.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_f" js="0">Zabijanie</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_f_desc" js="0">f - Zabijanie/szkodzenie innym graczom.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_g" js="0">Zmiany na mapie</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_g_desc" js="0">g - Zmień mapę lub główne funkcje rozgrywki.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_h" js="0">Zmień cvars</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_h_desc" js="0">h - Zmień większość cvarów.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_i" js="0">Pliki konfiguracyjne Exec</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_i_desc" js="0">i - Uruchom pliki konfiguracyjne.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_j" js="0">Czat administratora</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_j_desc" js="0">j - Specjalne przywileje czatu.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_k" js="0">Rozpocznij głosowanie</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_k_desc" js="0">k - Rozpocznij lub utwórz głosowanie.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_l" js="0">Serwer haseł</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_l_desc" js="0">l - Ustaw hasło na serwerze.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_m" js="0">Uruchom polecenia RCON</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_m_desc" js="0">m - Użyj poleceń RCON.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_n" js="0">Włącz kody</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_n_desc" js="0">n - Zmień sv_cheats lub użyj komend oszukiwania.</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_z" js="0">Administrator root (pełny dostęp administratora)</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_z_desc" js="0">z - Magicznie włącza wszystkie flagi.</word>
+  <word key="menu__axenplayerpanel_sourcebans_mods" js="0">Mody</word>
+  <word key="aXenPlayerPanel_admin_table_mods_new" js="0">Stwórz nowy mod</word>
+  <word key="aXenPlayerPanel_admin_table_mods_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_admin_table_mods_name_desc" js="0">Wpisz nazwę dodawanego modu.</word>
+  <word key="aXenPlayerPanel_admin_table_mods_icon" js="0">Ikona</word>
+  <word key="aXenPlayerPanel_admin_table_mods_modfolder" js="0">Folder moda</word>
+  <word key="aXenPlayerPanel_admin_table_mods_modfolder_desc" js="0">Wpisz nazwę tego folderu moda. Na przykład folder moda Counter-Strike: Source to „cstrike”.</word>
+  <word key="aXenPlayerPanel_admin_table_mods_steam_universe" js="0">Steam Universe</word>
+  <word key="aXenPlayerPanel_admin_table_mods_steam_universe_desc" js="0"><![CDATA[(STEAM_<span style='font-weight: bold;'>X</span>:Y:Z) Niektóre gry wyświetlają Steamid inaczej niż inne.<br />Wpisz pierwszą liczbę w SteamID (<span style='font-weight: bold;'>X</span>)w zależności od tego, jak jest renderowany przez ten mod. (Domyślnie: 0).]]></word>
+  <word key="menu__axenplayerpanel_sourcebans_servers" js="0">Serwery</word>
+  <word key="aXenPlayerPanel_admin_table_servers_new" js="0">Utwórz nowy serwer</word>
+  <word key="aXenPlayerPanel_admin_table_servers_sid" js="0">ID</word>
+  <word key="aXenPlayerPanel_admin_table_servers_modid" js="0">Mod</word>
+  <word key="aXenPlayerPanel_admin_table_servers_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_admin_table_servers_name_empty" js="0">Brak nazwy serwera!</word>
+  <word key="aXenPlayerPanel_admin_table_servers_ip" js="0">Adres IP</word>
+  <word key="aXenPlayerPanel_admin_table_servers_port" js="0">Port</word>
+  <word key="aXenPlayerPanel_admin_table_servers_rcon" js="0">Rcon</word>
+  <word key="aXenPlayerPanel_admin_table_servers_enabled" js="0">Włączony?</word>
+  <word key="menu__axenplayerpanel_sourcebans_settings" js="0">Ustawienia</word>
+  <word key="aXenPlayerPanel_settings_sourcebans_table_limit" js="0">Wiersze w limicie jednej strony</word>
+  <word key="menutab__axenplayerpanel" js="0">Panel gracza</word>
+  <word key="frontnavigation_axenplayerpanel" js="0">Panel gracza</word>
+  <word key="playerpanel_sourcebans" js="0">Sourcebans</word>
+  <word key="playerpanel_sourcebans-bans" js="0">Bany</word>
+  <word key="playerpanel_sourcebans-comms" js="0">Komunikacja</word>
+  <word key="playerpanel_amxbans" js="0">AMXBans</word>
+  <word key="playerpanel_amxbans-bans" js="0">Bany</word>
+  <word key="aXenPlayerPanel_table_name" js="0">Gracz</word>
+  <word key="aXenPlayerPanel_table_created" js="0">Stworzono</word>
+  <word key="aXenPlayerPanel_table_ends" js="0">Koniec</word>
+  <word key="aXenPlayerPanel_table_steamId" js="0">Steam ID</word>
+  <word key="aXenPlayerPanel_table_server" js="0">Serwer</word>
+  <word key="aXenPlayerPanel_table_reason" js="0">Powód</word>
+  <word key="aXenPlayerPanel_table_length" js="0">Długość</word>
+  <word key="aXenPlayerPanel_table_admin" js="0">Przez admina</word>
+  <word key="aXenPlayerPanel_status_new" js="0">Nowy</word>
+  <word key="aXenPlayerPanel_status_unbanned" js="0">Odbanowany</word>
+  <word key="aXenPlayerPanel_status_expired" js="0">Wygasły</word>
+  <word key="aXenPlayerPanel_days_left" js="0">%s pozostało</word>
+  <word key="r__aXenPlayerPanel_servers" js="0">Serwery</word>
+  <word key="r__aXenPlayerPanel_servers_view" js="0">Może przeglądać serwery?</word>
+  <word key="r__aXenPlayerPanel_servers_edit" js="0">Może edytować serwery?</word>
+  <word key="r__aXenPlayerPanel_servers_delete" js="0">Może usuwać serwery?</word>
+  <word key="r__aXenPlayerPanel_servers_create" js="0">Może stworzyć nowe serwery?</word>
+  <word key="r__aXenPlayerPanel_mods" js="0">Mody</word>
+  <word key="r__aXenPlayerPanel_mods_view" js="0">Może przeglądać mody?</word>
+  <word key="r__aXenPlayerPanel_mods_edit" js="0">Może edytować mody?</word>
+  <word key="r__aXenPlayerPanel_mods_delete" js="0">Może usuwać mody?</word>
+  <word key="r__aXenPlayerPanel_mods_create" js="0">Może tworzyć nowe mody?</word>
+  <word key="r__aXenPlayerPanel_admins" js="0">Admini</word>
+  <word key="r__aXenPlayerPanel_admins_view" js="0">Może przeglądać adminów?</word>
+  <word key="r__aXenPlayerPanel_admins_edit" js="0">Może edytować adminów?</word>
+  <word key="r__aXenPlayerPanel_admins_delete" js="0">Może usuwać adminów?</word>
+  <word key="r__aXenPlayerPanel_admins_create" js="0">Może tworzyć nowych adminów?</word>
+  <word key="aXenPlayerPanel_connection_sb_db_utf8mb4" js="0">Użyj utf8mb4</word>
+  <word key="aXenPlayerPanel_connection_amx_db_utf8mb4" js="0">Użyj utf8mb4</word>
+  <word key="menu__axenplayerpanel_configuration_settings" js="0">Ustawienia</word>
+  <word key="menu__axenplayerpanel_sourcebans_bans" js="0">Bany</word>
+  <word key="modperms__axenplayerpanel_sourcebans" js="0">(aXen) Player Panel - Sourcebans</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_view_ip" js="0">Może wyświetlić adresy IP graczy?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_add_ban" js="0">Może dodać nowe bany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_own_ban" js="0">Może zmienić status własnych banów na ban?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_ban" js="0">Może zmienić status bana na bana?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_un_own_ban" js="0">Może zmienić status własnych banów na odbanowany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_un_ban" js="0">Może zmienić status banów na odbanowany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_add_comms" js="0">Może dodać nowe zakazy komunikacji?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_own_comms" js="0">Może zmienić swój status komunikacji na zbanowany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_comms" js="0">Może zmienić status komunikacji na zbanowany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_un_own_comms" js="0">Może zmienić swój status komunikacji na odbanowany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_un_comms" js="0">Może zmienić status komunikacji na odbanowany?</word>
+  <word key="playerpanel_overview" js="0">Przegląd</word>
+  <word key="aXenPlayerPanel_table_authid" js="0">Steam ID</word>
+  <word key="aXenPlayerPanel_table_aid" js="0">Admion</word>
+  <word key="aXenPlayerPanel_table_aid_deleted" js="0">Admin usunięty</word>
+  <word key="aXenPlayerPanel_sourcebans_add_name" js="0">Nazwa gracza</word>
+  <word key="aXenPlayerPanel_sourcebans_add_steam_id" js="0">Steam ID</word>
+  <word key="aXenPlayerPanel_sourcebans_add_address_ip" js="0">Adres IP</word>
+  <word key="aXenPlayerPanel_sourcebans_add_reason" js="0">Powód</word>
+  <word key="aXenPlayerPanel_sourcebans_add_length" js="0">Długość</word>
+  <word key="aXenPlayerPanel_sourcebans_ban" js="0">Ban</word>
+  <word key="aXenPlayerPanel_sourcebans_unBan" js="0">Odbanuj</word>
+  <word key="aXenPlayerPanel_sourcebans_block" js="0">Blokada</word>
+  <word key="aXenPlayerPanel_sourcebans_unBlock" js="0">Oblokuj</word>
+  <word key="aXenPlayerPanel_sourcebans_bans_add" js="0">Dodaj bana</word>
+  <word key="aXenPlayerPanel_sourcebans_bans_add_type" js="0">Typ bana</word>
+  <word key="aXenPlayerPanel_sourcebans_comms_add" js="0">Dodaj bana</word>
+  <word key="aXenPlayerPanel_sourcebans_comms_add_type" js="0">Typ bana</word>
+  <word key="aXenPlayerPanel_sourcebans_comms_type_voice" js="0">Głos</word>
+  <word key="aXenPlayerPanel_sourcebans_comms_type_chat" js="0">Czat</word>
+  <word key="aXenPlayerPanel_sourcebans_comms_type_both" js="0">Czat i głos</word>
+  <word key="aXenPlayerPanel_amxbans_bans_add" js="0">Dodaj ban</word>
+  <word key="aXenPlayerPanel_length_1" js="0">1 minuta</word>
+  <word key="aXenPlayerPanel_length_5" js="0">5 minut</word>
+  <word key="aXenPlayerPanel_length_10" js="0">10 minut</word>
+  <word key="aXenPlayerPanel_length_15" js="0">15 minut</word>
+  <word key="aXenPlayerPanel_length_30" js="0">30 minut</word>
+  <word key="aXenPlayerPanel_length_45" js="0">45 minut</word>
+  <word key="aXenPlayerPanel_length_60" js="0">1 godzina</word>
+  <word key="aXenPlayerPanel_length_120" js="0">2 godziny</word>
+  <word key="aXenPlayerPanel_length_180" js="0">3 godziny</word>
+  <word key="aXenPlayerPanel_length_240" js="0">4 godziny</word>
+  <word key="aXenPlayerPanel_length_300" js="0">5 godzin</word>
+  <word key="aXenPlayerPanel_length_360" js="0">6 godzin</word>
+  <word key="aXenPlayerPanel_length_480" js="0">8 godzin</word>
+  <word key="aXenPlayerPanel_length_720" js="0">12 godzin</word>
+  <word key="aXenPlayerPanel_length_1440" js="0">1 dzień</word>
+  <word key="aXenPlayerPanel_length_2880" js="0">2 dni</word>
+  <word key="aXenPlayerPanel_length_4320" js="0">3 dni</word>
+  <word key="aXenPlayerPanel_length_5760" js="0">4 dni</word>
+  <word key="aXenPlayerPanel_length_7200" js="0">5 dni</word>
+  <word key="aXenPlayerPanel_length_8640" js="0">6 dni</word>
+  <word key="aXenPlayerPanel_length_10080" js="0">1 tydzień</word>
+  <word key="aXenPlayerPanel_length_20160" js="0">2 tygodnie</word>
+  <word key="aXenPlayerPanel_length_30240" js="0">3 tygodnie</word>
+  <word key="aXenPlayerPanel_length_43200" js="0">1 miesiąc</word>
+  <word key="aXenPlayerPanel_length_86400" js="0">2 miesiące</word>
+  <word key="aXenPlayerPanel_length_129600" js="0">3 miesiące</word>
+  <word key="aXenPlayerPanel_length_259200" js="0">6 miesięcy</word>
+  <word key="aXenPlayerPanel_length_518400" js="0">1 rok</word>
+  <word key="aXenPlayerPanel_action_ban" js="0">Gracz został zbanowany</word>
+  <word key="aXenPlayerPanel_action_ban_add" js="0">Pomyślnie dodano nowy ban</word>
+  <word key="aXenPlayerPanel_action_unBan" js="0">Gracz został odbanowany</word>
+  <word key="aXenPlayerPanel_action_block" js="0">Gracz został zbanowany</word>
+  <word key="aXenPlayerPanel_action_block_add" js="0">Pomyślnie dodano nowy ban</word>
+  <word key="aXenPlayerPanel_action_unBlock" js="0">Gracz został odblokowany</word>
+  <word key="modlog__aXenPlayerPanel_action_ban" js="0">#%s Zbanowano %s gracza w %s</word>
+  <word key="modlog__aXenPlayerPanel_action_unBan" js="0">#%s Odbanowano %s gracza  w %s</word>
+  <word key="modlog__aXenPlayerPanel_action_block" js="0">#%s Zablokuj komunikację %s gracza w %s</word>
+  <word key="modlog__aXenPlayerPanel_action_unBlock" js="0">#%s Odbanowano komunikację %s gracza w %s</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_own_ban_edit" js="0">Może edytować własne bany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_ban_edit" js="0">Może edytować bany?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_own_comms_edit" js="0">Może edytować własne zakazy komunikacji?</word>
+  <word key="aXenPlayerPanel_sourcebans_permission_can_edit_comms_edit" js="0">Może edytować zakazy komunikacji?</word>
+  <word key="aXenPlayerPanel_sourcebans_add_ends" js="0">Koniec</word>
+  <word key="aXenPlayerPanel_action_ban_edit" js="0">Ban został zmieniony</word>
+  <word key="aXenPlayerPanel_action_block_edit" js="0">Ban został zmieniony</word>
+  <word key="modlog__aXenPlayerPanel_action_edit_ban" js="0">#%s Edytowane bana gracza %s w %s</word>
+  <word key="modlog__aXenPlayerPanel_action_add_ban" js="0">Dodano bana dla gracza %s w %s. Powód: %s</word>
+  <word key="modlog__aXenPlayerPanel_action_edit_comm" js="0">#%s Edytowano blokadę komunikacji gracza %s w %s</word>
+  <word key="modlog__aXenPlayerPanel_action_add_comm" js="0">Dodano bana na komunikację dla gracza %s w %s. Powód: %s</word>
+  <word key="aXenPlayerPanel_settings_intro_text_value" js="0">Witaj w Panelu Gracza! To jest opis do przeglądu.</word>
+  <word key="r__aXenPlayerPanel_groups" js="0">Grupy</word>
+  <word key="r__aXenPlayerPanel_groups_view" js="0">Może przeglądać grupy?</word>
+  <word key="r__aXenPlayerPanel_groups_edit" js="0">Może edytować grupy?</word>
+  <word key="r__aXenPlayerPanel_groups_delete" js="0">Może usuwać grupy?</word>
+  <word key="r__aXenPlayerPanel_groups_create" js="0">Może tworzyć nowe grupy?</word>
+  <word key="r__aXenPlayerPanel_settings" js="0">Ustawienia</word>
+  <word key="r__aXenPlayerPanel_settings_manage" js="0">Może zarządzać ustawieniami?</word>
+  <word key="r__aXenPlayerPanel_bans" js="0">Bany</word>
+  <word key="r__aXenPlayerPanel_bans_view" js="0">Może przeglądać bany?</word>
+  <word key="r__aXenPlayerPanel_bans_delete" js="0">Może usuwać bany?</word>
+  <word key="r__aXenPlayerPanel_comms" js="0">Komunikacja</word>
+  <word key="r__aXenPlayerPanel_comms_view" js="0">Może przeglądać bany na komunikację?</word>
+  <word key="r__aXenPlayerPanel_comms_delete" js="0">Może usunąć ban na komunikację?</word>
+  <word key="aXenPlayerPanel_settings_intro" js="0">Pokazać wprowadzenie w przeglądzie?</word>
+  <word key="aXenPlayerPanel_settings_intro_title" js="0">Tutuł</word>
+  <word key="aXenPlayerPanel_settings_intro_text" js="0">Tekst</word>
+  <word key="menu__axenplayerpanel_sourcebans_comms" js="0">Komunikacje</word>
+  <word key="aXenPlayerPanel_server_web" js="0">Przez stronę</word>
+  <word key="aXenPlayerPanel_table_game" js="0">Gra</word>
+  <word key="aXenPlayerPanel_table_sid" js="0">Serwer</word>
+  <word key="aXenPlayerPanel_table_type" js="0">Typ bana</word>
+  <word key="aXenPlayerPanel_error_duplicate_group_name" js="0">Nazwa tej grupy już istnieje!</word>
+  <word key="aXenPlayerPanel_error_duplicate_admin_name" js="0">Nazwa tego administratora już istnieje!</word>
+  <word key="menu__axenplayerpanel_appeals" js="0">Odwołania</word>
+  <word key="aXenPlayerPanel_appeals_add" js="0">Dodaj odwołanie</word>
+  <word key="aXenPlayerPanel_appeals_edit" js="0">Edytuj odwołanie</word>
+  <word key="aXenPlayerPanel_appeals_select_category" js="0">Wybierz kategorię</word>
+  <word key="menu__axenplayerpanel_appeals_categories" js="0">Kategorię</word>
+  <word key="aXenPlayerPanel_appeals_category_add" js="0">Dodaj kategorię</word>
+  <word key="aXenPlayerPanel_appeals_category_edit" js="0">Edytuj kategorię</word>
+  <word key="aXenPlayerPanel_appeals_category_admin_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_appeals_category_admin_description" js="0">Opis</word>
+  <word key="menu__axenplayerpanel_amxbans" js="0">AMXBans</word>
+  <word key="menu__axenplayerpanel_amxbans_settings" js="0">Ustawienia</word>
+  <word key="aXenPlayerPanel_settings_amxbans_table_limit" js="0">Wiersze w limicie jednej strony</word>
+  <word key="playerpanel_appeals" js="0">Odwołania</word>
+  <word key="playerpanel_appeals-index" js="0">Odwołania</word>
+  <word key="__defart_playerpanel_appeals_appeal" js="0">odwołanie</word>
+  <word key="__indefart_playerpanel_appeals_appeal" js="0">odwołanie</word>
+  <word key="aXenPlayerPanel_error_sourcebans_form_no_length" js="0">Nie wybrano długości bana!</word>
+  <word key="aXenPlayerPanel_error_appeal_exist" js="0">Nie możesz dodać kolejnego odwołania, jeśli już istnieje</word>
+  <word key="module__axenplayerpanel_appeals" js="0">Odwołania</word>
+  <word key="appeal__comment_placeholder" js="0">Dodaj komentarz...</word>
+  <word key="appeal_submit_comment" js="0">Prześlij komentarz</word>
+  <word key="menu__axenplayerpanel_appeals_settings" js="0">Ustawienia</word>
+  <word key="module__axenplayerpanel_sourcebans" js="0">Sourcebans</word>
+  <word key="playerpanel_sourcebans_bans" js="0">Bany</word>
+  <word key="playerpanel_sourcebans_comms" js="0">Komunikacja</word>
+  <word key="playerpanel_amxbans_bans" js="0">Bany</word>
+  <word key="aXenPlayerPanel_table_ip" js="0">Adres IP</word>
+  <word key="appeal_title" js="0">Tytuł</word>
+  <word key="appeal_auto_follow" js="0">Śledź</word>
+  <word key="appeal_auto_follow_suffix" js="0">Śledzić to odwołanie?</word>
+  <word key="appeal_desc" js="0">Dlaczego piszesz odwołanie?</word>
+  <word key="aXenPlayerPanel_sourcebans_add_perm" js="0">Na zawsze?</word>
+  <word key="aXenPlayerPanel_sourcebans_add_perm_desc" js="0">Zablokuj użytkownika na zawsze.</word>
+  <word key="aXenPlayerPanel_appeals_category_admin_parent_id" js="0">Rodzic</word>
+  <word key="aXenPlayerPanel_settings_appeals_desc" js="0">Opis</word>
+  <word key="playerpanel_appeals_comment" js="0">Komentarz w odwołaniu</word>
+  <word key="playerpanel_appeals_appeal" js="0">Odwołanie</word>
+  <word key="__indefart_playerpanel_appeals_comment" js="0">post w odwołaniu</word>
+  <word key="aXenPlayerPanel_error_expires_edit" js="0">Nie możesz edytować wygasłego bana</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_o" js="0">Flaga niestandardowa o</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_o_desc" js="0">o - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_p" js="0">Flaga niestandardowa p</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_p_desc" js="0">p - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_r" js="0">Flaga niestandardowa r</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_r_desc" js="0">r - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_s" js="0">Flaga niestandardowa s</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_s_desc" js="0">s - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_t" js="0">Flaga niestandardowa t</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_t_desc" js="0">t - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_u" js="0">Flaga niestandardowa u</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_u_desc" js="0">u - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_v" js="0">Flaga niestandardowa v</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_v_desc" js="0">v - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_w" js="0">Flaga niestandardowa w</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_w_desc" js="0">w - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_x" js="0">Flaga niestandardowa x</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_x_desc" js="0">x - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_y" js="0">Flaga niestandardowa y</word>
+  <word key="aXenPlayerPanel_admin_table_groups_flags_y_desc" js="0">y - opis dla niestandardowej flagi</word>
+  <word key="aXenPlayerPanel_edit_ban" js="0">Edytuj bana</word>
+  <word key="aXenPlayerPanel_table_engine" js="0">Silnik</word>
+  <word key="aXenPlayerPanel_ban_ban" js="0">Ban</word>
+  <word key="aXenPlayerPanel_ban_common" js="0">Komunikacja</word>
+  <word key="aXenPlayerPanel_status_pending" js="0">Oczekujący</word>
+  <word key="aXenPlayerPanel_status_rejected" js="0">Odrzucony</word>
+  <word key="modlog__aXenPlayerPanel_action_bank" js="0">#%s Zablokuj komunikację %s gracza w %s</word>
+  <word key="module__axenplayerpanel_amxbans" js="0">AMXBans</word>
+  <word key="aXenPlayerPanel_admin_table_admins_name" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_admin_table_admins_member_id" js="0">Użytkownik z IPS</word>
+  <word key="aXenPlayerPanel_admin_table_admins_steam_id" js="0">Steam ID</word>
+  <word key="aXenPlayerPanel_admin_table_servers_id" js="0">ID</word>
+  <word key="aXenPlayerPanel_admin_table_servers_hostname" js="0">Nazwa</word>
+  <word key="aXenPlayerPanel_admin_table_servers_address" js="0">Adres IP</word>
+  <word key="menu__axenplayerpanel_amxbans_bans" js="0">Bany</word>
+  <word key="menu__axenplayerpanel_amxbans_admins" js="0">Admini</word>
+  <word key="menu__axenplayerpanel_amxbans_admins_desc" js="0">Lista administratorów połączonych z Twoją społecznością. Ta lista nie daje uprawnień do zarządzania AMXBanami na serwerze!</word>
+  <word key="menu__axenplayerpanel_amxbans_servers" js="0">Serwery</word>
+  <word key="menu__axenplayerpanel_amxbans_servers_desc" js="0">Serwery dodawane są automatycznie po połączeniu wtyczki z serwera z zewnętrzną bazą danych.</word>
+  <word key="aXenPlayerPanel_table_player_nick" js="0">Gracz</word>
+  <word key="aXenPlayerPanel_table_ban_created" js="0">Stworzono</word>
+  <word key="aXenPlayerPanel_table_ban_length" js="0">Koniec</word>
+  <word key="aXenPlayerPanel_table_player_id" js="0">Steam ID </word>
+  <word key="aXenPlayerPanel_table_server_ip" js="0">Serwer</word>
+  <word key="aXenPlayerPanel_table_ban_reason" js="0">Powód</word>
+  <word key="aXenPlayerPanel_table_player_ip" js="0">Adres IP</word>
+  <word key="aXenPlayerPanel_add_name" js="0">Nazwa gracza</word>
+  <word key="aXenPlayerPanel_add_steam_id" js="0">Steam ID</word>
+  <word key="aXenPlayerPanel_add_address_ip" js="0">Adres IP</word>
+  <word key="aXenPlayerPanel_add_steam_id_and_address_ip" js="0"><![CDATA[Adres IP & Steam ID]]></word>
+  <word key="aXenPlayerPanel_add_reason" js="0">Powód</word>
+  <word key="aXenPlayerPanel_add_length" js="0">Dłogość</word>
+  <word key="aXenPlayerPanel_add_perm" js="0">Na stałe?</word>
+  <word key="aXenPlayerPanel_add_perm_desc" js="0">Zablokuj użytkownika na zawsze.</word>
+  <word key="aXenPlayerPanel_add_ends" js="0">Koniec</word>
+  <word key="aXenPlayerPanel_ban" js="0">Ban</word>
+  <word key="aXenPlayerPanel_unBan" js="0">Odbanuj</word>
+  <word key="aXenPlayerPanel_bans_add_type" js="0">Typ bana</word>
+  <word key="modlog__aXenPlayerPanel_action_unBan_comm" js="0">#%s Odbanowano komunikację %s gracza w %s</word>
+  <word key="aXenPlayerPanel_error_table_exist" js="0">Tabele bazy danych już istnieją! Połącz się z pustą bazą danych.</word>
+  <word key="aXenPlayerPanel_error_table_cannot_find" js="0">Nie znaleziono bazy danych pasującej do podanego systemu.</word>
+  <word key="aXenPlayerPanel_admin_database_created" js="0">Utworzono bazę danych</word>
+  <word key="aXenPlayerPanel_admin_database_cleared" js="0">Baza danych została wyczyszczona</word>
+  <word key="aXenPlayerPanel_tools_create_tables" js="0">Utwórz tabelę w bazie danych</word>
+  <word key="aXenPlayerPanel_tools_clear_tables" js="0">Usuń wszystkie dane z bazy danych</word>
+  <word key="aXenPlayerPanel_tools_clear_tables_desc" js="0"><![CDATA[Usuwa wszystkie dane z bazy danych. <span style='color: red;font-weight: bold;'>Uwaga! Ta opcja jest nieodwracalna!</span>]]></word>
+  <word key="menu__axenplayerpanel_sourcebans_tools" js="0">Narzędzia</word>
+  <word key="aXenPlayerPanel_tools_sourcebans_create_tables_desc" js="0"><![CDATA[Tworzy tabelę w bazie danych dla silnika Sourcebans. Upewnij się, że <a href='{internal.app=axenplayerpanel&module=configuration&controller=connection}'>połączenie z bazą danych dla sourcebans</a> jest połączone.]]></word>
+  <word key="menu__axenplayerpanel_amxbans_tools" js="0">Narzędzia</word>
+  <word key="aXenPlayerPanel_tools_amxbans_create_tables_desc" js="0"><![CDATA[Tworzy tabelę w bazie danych dla silnika AMXBans. Upewnij się, że <a href='{internal.app=axenplayerpanel&module=configuration&controller=connection}'>połączenie z bazą danych dla amxbans</a> jest połączone.]]></word>
+  <word key="aXenPlayerPanel_error_form_no_length" js="0">Nie wybrano długości bana!</word>
+  <word key="modperms__axenplayerpanel_amxbans" js="0">(aXen) Player Panel - AMXBans</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_view_ip" js="0">Może wyświetlić adresy IP graczy?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_add_ban" js="0">Może dodać nowe bany?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_edit_own_ban" js="0">Może zmienić status własnych banów na zbanowany?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_edit_ban" js="0">Może zmienić status bana na zbanowany?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_edit_un_own_ban" js="0">Może zmienić status własnych banów na odbanowany?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_edit_un_ban" js="0">Może zmienić status banów na odbanowany?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_edit_own_ban_edit" js="0">Może edytować własne bany?</word>
+  <word key="aXenPlayerPanel_amxbans_permission_can_edit_ban_edit" js="0">Może edytować bany?</word>
+  <word key="r__aXenPlayerPanel_servers_manage" js="0">Może zarządzać serwerami?</word>
+  <word key="r__aXenPlayerPanel_mods_manage" js="0">Może zarządzać modami?</word>
+  <word key="r__aXenPlayerPanel_admins_manage" js="0">Może zarządzać adminami?</word>
+  <word key="r__aXenPlayerPanel_groups_manage" js="0">Może zarządzać grupami?</word>
+  <word key="r__aXenPlayerPanel_bans_manage" js="0">Może zarządzać banami?</word>
+  <word key="r__aXenPlayerPanel_comms_manage" js="0">Może zarządzać banami na komunikację?</word>
+  <word key="r__aXenPlayerPanel_tools" js="0">Narzędzia</word>
+  <word key="r__aXenPlayerPanel_tools_manage" js="0">Może zarządzać narzędziami?</word>
+  <word key="r__aXenPlayerPanel_tools_database_delete" js="0">Może usuwać wszystkie dane z bazy danych?</word>
+  <word key="r__aXenPlayerPanel_tools_database_create" js="0">Może tworzyć tabele w bazie danych?</word>
+  <word key="axenplayerpanel_appeals_pl" js="0">Odwołania</word>
+  <word key="aXenPlayerPanel_table_type_chat" js="0">Czat</word>
+  <word key="aXenPlayerPanel_table_type_voice" js="0">Głos</word>
+  <word key="aXenPlayerPanel_table_type_both" js="0">Czat i głos</word>
+  <word key="search_contextual_item_menu__axenplayerpanel_appeals_categories" js="0">Ta kategoria odwołania</word>
+  <word key="search_contextual_item_playerpanel_appeals_appeal" js="0">Te odwołanie</word>
+  <word key="node_no_parent_appeals" js="0">Brak odwołań rodziców</word>
+  <word key="appeals_no_number" js="0">{!# [1:odwołanie][2:odwołania][3:odwołania][4:odwołania][?:odwołań]}</word>
+  <word key="aXenPlayerPanel_advanced_search" js="0">Zaawansowane wyszukiwanie</word>
+  <word key="aXenPlayerPanel_settings_overview_stat" js="0">Pokazać globalne statystyki Panelu Gracza w przeglądzie?</word>
+  <word key="aXenPlayerPanel_overview_hi" js="0">Cześć!</word>
+  <word key="playerpanel_appeals_appeal_pl" js="0">Odwołania</word>
+  <word key="playerpanel_appeals_comment_pl" js="0">Komentarze do odwołania</word>
+  <word key="block_playerPanelStats" js="0">Statystyki panelu gracza</word>
+  <word key="block_playerPanelStats_desc" js="0">Pokazuje ogólne statystyki panelu gracza</word>
+  <word key="aXenPlayerPanel_widget_stat_total_servers" js="0">Wszystkie serwery</word>
+  <word key="aXenPlayerPanel_widget_stat_total_blocks" js="0">Wszystkie blokady</word>
+  <word key="aXenPlayerPanel_widget_stat_total_mutes" js="0">Wszystkie wyciszenia</word>
+  <word key="aXenPlayerPanel_widget_stat_total_appeals" js="0">Wszystkie odwołania</word>
+  <word key="aXenPlayerPanel_widget_stat_total_appeals_comments" js="0">Wszystkie komentarze odwołań</word>
+  <word key="aXenPlayerPanel_widget_stat_sourcebans" js="0">Statystyki Sourcebans</word>
+  <word key="aXenPlayerPanel_widget_stat_amxbans" js="0">Statystyki AMXBans</word>
+  <word key="block_appealFeed" js="0">Kanał odwołania</word>
+  <word key="block_appealFeed_desc" js="0">Utwórz widget odwołań w oparciu o niestandardowe opcje sortowania i zamawiania</word>
+  <word key="widget_feed_container_playerpanel_appeals_appeal" js="0">Kategoria</word>
+ </app>
+</language>
