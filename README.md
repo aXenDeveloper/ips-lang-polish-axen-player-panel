@@ -2,7 +2,7 @@
 
 ## 🏷️ Requirements
 
-- [(aXen) Player Panel 1.0.0](https://invisioncommunity.com/files/file/10158-axen-player-panel/)
+- [(aXen) Player Panel 1.0.0](https://forum.invisionize.pl/files/file/844-axen-player-panel/)
 
 ## 🧰 Install and update
 
